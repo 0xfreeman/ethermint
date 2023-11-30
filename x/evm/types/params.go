@@ -20,7 +20,7 @@ var (
 	// DefaultMinGasMultiplier is 0.5 or 50%
 	DefaultMinGasMultiplier = sdk.NewDecWithPrec(50, 2)
 	// DefaultAllowUnprotectedTxs rejects all unprotected txs (i.e false)
-	DefaultAllowUnprotectedTxs = false
+	DefaultAllowUnprotectedTxs = true
 )
 
 // Parameter keys
